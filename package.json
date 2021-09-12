@@ -12,7 +12,10 @@
   "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.15.0",
+<<<<<<< HEAD
     "@babel/polyfill": "^7.12.1",
+=======
+>>>>>>> a34dbdda9dc26d2fe34602ce10896918b40785b8
     "@babel/preset-env": "^7.15.0",
     "@vue/cli-service": "^4.5.13",
     "ant-design-vue": "^2.2.6",

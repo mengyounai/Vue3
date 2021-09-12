@@ -9,6 +9,10 @@ npm install
 npm run serve
 
 三、打包
+<<<<<<< HEAD
 npm run dev"# test" 
 
 test
+=======
+npm run dev
+>>>>>>> a34dbdda9dc26d2fe34602ce10896918b40785b8

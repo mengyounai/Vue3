@@ -3,10 +3,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 // 最新的 vue-loader 中，VueLoaderPlugin 插件的位置有所改变
 const { VueLoaderPlugin } = require('vue-loader/dist/index')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+<<<<<<< HEAD
  require("@babel/polyfill");
 module.exports = {
     mode: 'development',
     entry: path.resolve(__dirname,'./src/main.ts'),
+=======
+module.exports = {
+    mode: 'development',
+    entry: path.resolve(__dirname, './src/main.ts'),
+>>>>>>> a34dbdda9dc26d2fe34602ce10896918b40785b8
     devServer: {
         // contentBase: path.join(__dirname, './dist'),
         // /** 是否开启压缩 */
@@ -40,12 +46,16 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/, // 不编译node_modules下的文件
+<<<<<<< HEAD
                 loader: 'babel-loader',
                 // options:{
                 //     presets: [["@babel/preset-env",{
                 //         useBuiltIns:'usage'
                 //     }]]
                 // }
+=======
+                loader: 'babel-loader'
+>>>>>>> a34dbdda9dc26d2fe34602ce10896918b40785b8
             },
             {
                 test:/\.tsx?$/,
